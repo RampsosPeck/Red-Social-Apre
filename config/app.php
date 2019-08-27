@@ -169,11 +169,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Redsocialapre\Providers\AppServiceProvider::class,
+        Redsocialapre\Providers\AuthServiceProvider::class,
+        // Redsocialapre\Providers\BroadcastServiceProvider::class,
+        Redsocialapre\Providers\EventServiceProvider::class,
+        Redsocialapre\Providers\RouteServiceProvider::class,
 
     ],
 
