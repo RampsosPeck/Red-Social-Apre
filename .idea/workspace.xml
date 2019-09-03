@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="50eaf724-73d5-482e-bda5-59428f7211c4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/StatusesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/StatusesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Feature/CreateStatusTest.php" afterPath="$PROJECT_DIR$/tests/Feature/CreateStatusTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,8 @@
       <file leaf-file-name="CreateStatusTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Feature/CreateStatusTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="-853">
+              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="22" />
               <folding>
                 <element signature="e#33#56#0#PHP" expanded="true" />
               </folding>
@@ -51,8 +50,8 @@
       <file leaf-file-name="StatusesController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StatusesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="280">
+              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="e#50#78#0#PHP" expanded="true" />
               </folding>
@@ -81,9 +80,9 @@
         <option value="$PROJECT_DIR$/app/Models/Status.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_08_29_205854_create_statuses_table.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/StatusesController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/CreateStatusTest.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -406,44 +405,44 @@
       <workItem from="1567113191143" duration="328000" />
       <workItem from="1567456896470" duration="650000" />
       <workItem from="1567524978554" duration="2058000" />
-      <workItem from="1567531075014" duration="2885000" />
+      <workItem from="1567531075014" duration="3456000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CreateStatusTest_(1) - 2019.09.03 at 14h 02m 35s.xml">
-      <configuration name="CreateStatusTest (1)" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CreateStatusTest_(1) - 2019.09.03 at 14h 03m 56s.xml">
-      <configuration name="CreateStatusTest (1)" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CreateStatusTest_(1) - 2019.09.03 at 14h 03m 58s.xml">
-      <configuration name="CreateStatusTest (1)" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CreateStatusTest_(1) - 2019.09.03 at 14h 04m 07s.xml">
-      <configuration name="CreateStatusTest (1)" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CreateStatusTest_(1) - 2019.09.03 at 14h 05m 40s.xml">
-      <configuration name="CreateStatusTest (1)" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="CreateStatusTest_(1) - 2019.09.03 at 14h 05m 57s.xml">
       <configuration name="CreateStatusTest (1)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="CreateStatusTest_guests_users_can_not_create_statuses - 2019.09.03 at 14h 01m 52s.xml">
-      <configuration name="CreateStatusTest.guests_users_can_not_create_statuses" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="CreateStatusTest_(1) - 2019.09.03 at 14h 10m 06s.xml">
+      <configuration name="CreateStatusTest (1)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="CreateStatusTest_guests_users_can_not_create_statuses - 2019.09.03 at 14h 05m 27s.xml">
-      <configuration name="CreateStatusTest.guests_users_can_not_create_statuses" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="CreateStatusTest_(1) - 2019.09.03 at 14h 10m 40s.xml">
+      <configuration name="CreateStatusTest (1)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="CreateStatusTest_guests_users_can_not_create_statuses - 2019.09.03 at 14h 05m 31s.xml">
-      <configuration name="CreateStatusTest.guests_users_can_not_create_statuses" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="CreateStatusTest_(1) - 2019.09.03 at 14h 13m 06s.xml">
+      <configuration name="CreateStatusTest (1)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="CreateStatusTest_guests_users_can_not_create_statuses - 2019.09.03 at 14h 05m 35s.xml">
-      <configuration name="CreateStatusTest.guests_users_can_not_create_statuses" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="CreateStatusTest_(1) - 2019.09.03 at 14h 13m 43s.xml">
+      <configuration name="CreateStatusTest (1)" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CreateStatusTest_(1) - 2019.09.03 at 14h 13m 52s.xml">
+      <configuration name="CreateStatusTest (1)" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CreateStatusTest_(1) - 2019.09.03 at 14h 14m 01s.xml">
+      <configuration name="CreateStatusTest (1)" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CreateStatusTest_(1) - 2019.09.03 at 14h 14m 38s.xml">
+      <configuration name="CreateStatusTest (1)" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CreateStatusTest_(1) - 2019.09.03 at 14h 15m 20s.xml">
+      <configuration name="CreateStatusTest (1)" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CreateStatusTest_(1) - 2019.09.03 at 14h 15m 25s.xml">
+      <configuration name="CreateStatusTest (1)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7260000" />
+    <option name="totallyTimeSpent" value="7831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="844" y="27" width="1075" height="1041" extended-state="0" />
@@ -658,16 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StatusesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#50#78#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -676,10 +665,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StatusesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#50#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/CreateStatusTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="-853">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="22" />
           <folding>
             <element signature="e#33#56#0#PHP" expanded="true" />
           </folding>
