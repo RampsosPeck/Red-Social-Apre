@@ -25,7 +25,7 @@ class CreateStatusTest extends TestCase
     /** @test */
     public function an_athenticated_user_can_create_statuses()
     {
-        $this->withoutExceptionHandling();
+        //$this->withoutExceptionHandling();
         //$this->withoutExceptionHandling();
         // 1. Given => Teniendo un usuario autenticado
         $user = factory(User::class)->create();

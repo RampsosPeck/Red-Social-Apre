@@ -99,17 +99,7 @@
     <div class="row">
         <div class="col-8 mx-auto">
             <div class="card border-0 bg-light mb-3 shadow-sm">
-
-                    <div class="card-body">
-                           <textarea
-                              class="form-control border-0 bg-light"
-                              name="body"
-                              placeholder="¿Qué estás pensando Jorge peralta?"></textarea>
-                    </div>
-                    <div class="card-footer">
-                        <button class="btn btn-primary" id="create-status">Publicar</button>
-                    </div>
-
+                <status-form></status-form>
             </div>
         </div>
     </div>
