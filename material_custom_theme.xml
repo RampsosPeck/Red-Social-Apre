@@ -7,9 +7,9 @@
     <option name="secondaryBackgroundColor" value="32424a" />
     <option name="caretColor" value="ffcc00" />
     <option name="inactiveColor" value="2e3c43" />
-    <option name="selectionForegroundColor" value="3f3846" />
+    <option name="selectionForegroundColor" value="ffffff" />
     <option name="selectionBackgroundColor" value="546e7a" />
     <option name="textColor" value="607d8b" />
-    <option name="foregroundColor" value="1a0dc5" />
+    <option name="foregroundColor" value="b0bec5" />
   </component>
 </application>
