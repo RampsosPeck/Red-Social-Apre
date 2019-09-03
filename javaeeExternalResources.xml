@@ -1,0 +1,5 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://plugins.intellij.net/revu/ns/revu_1_0.xsd" location="$USER_HOME$/file:/home/jope/.PhpStorm2017.1/config/plugins/revu.jar!/org/sylfra/idea/plugins/revu/resources/schemas/revu_1_0.xsd" />
+  </component>
+</application>
