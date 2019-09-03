@@ -7,6 +7,14 @@ use Redsocialapre\Models\Status;
 
 class StatusesController extends Controller
 {
+	public function index()
+    {
+        /*return  StatusResource::collection(
+            Status::latest()->paginate()
+        );*/
+        return  Status::paginate();
+    }
+    
     public function store(){
 
         request()->validate(['body' => 'required|min:5']);
