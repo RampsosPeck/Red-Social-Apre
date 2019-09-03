@@ -13,6 +13,15 @@ class CreateStatusTest extends TestCase
     use RefreshDatabase;
     use WithoutMiddleware;
 
+    /**@test*/
+    function guests_users_can_not_create_statuses()
+    {
+        //$this->withExceptionHandling();
+        $response =  $this->post(route('statuses.store'),['body'=>'Mi primer status']);
+        //dd($response->content());
+        $response->assertRedirect('login');
+    }
+
     /** @test */
     public function an_athenticated_user_can_create_statuses()
     {
@@ -22,11 +31,12 @@ class CreateStatusTest extends TestCase
         $user = factory(User::class)->create();
         $this->actingAs($user);
         // 2. When => Cuando hace un post request a status
-        $this->post(route('statuses.store'),['body'=>'Mi primer status']);
+        $response = $this->post(route('statuses.store'),['body'=>'Mi primer status']);
         //$response->assertSuccessful();
-        /*$response->assertJson([
-            'data'=>['body' =>'Mi primer status'],
-        ]);*/
+        //$response->assertRedirect('/');
+        $response->assertJson([
+            'body' =>'Mi primer status',
+        ]);
         // 3. Then => Entonces veo un nuevo estado en la base de datos
         $this->assertDatabaseHas('statuses',[
             'user_id' => $user->id,

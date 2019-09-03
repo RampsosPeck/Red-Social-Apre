@@ -8,9 +8,14 @@ use Redsocialapre\Models\Status;
 class StatusesController extends Controller
 {
     public function store(){
-        Status::create([
+        $status = Status::create([
             'body'=> request('body'),
             'user_id'=> auth()->id()
         ]);
+
+        //return redirect('/');
+
+        return response()->json(['body'=>$status->body]);
+
     }
 }
