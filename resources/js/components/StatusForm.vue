@@ -32,7 +32,7 @@
 				axios.post('/statuses',{body:this.body})
 					.then( res => {
 						//console.log(res.data)
-                        EventBus.$emit('status-created', res.data);
+                        EventBus.$emit('status-created', res.data.data);
                         //this.statuses.push(res.data);
 						this.body=''
 					})

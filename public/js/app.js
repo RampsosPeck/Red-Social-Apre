@@ -1730,7 +1730,7 @@ __webpack_require__.r(__webpack_exports__);
         body: this.body
       }).then(function (res) {
         //console.log(res.data)
-        EventBus.$emit('status-created', res.data); //this.statuses.push(res.data);
+        EventBus.$emit('status-created', res.data.data); //this.statuses.push(res.data);
 
         _this.body = '';
       })["catch"](function (error) {
@@ -37183,11 +37183,15 @@ var render = function() {
             }),
             _vm._v(" "),
             _c("div", [
-              _c("h5", { staticClass: "mb-1" }, [_vm._v("Jorge Peralta")]),
+              _c("h5", {
+                staticClass: "mb-1",
+                domProps: { textContent: _vm._s(status.user_name) }
+              }),
               _vm._v(" "),
-              _c("div", { staticClass: "small text-muted" }, [
-                _vm._v("Hace una hora")
-              ])
+              _c("div", {
+                staticClass: "small text-muted",
+                domProps: { textContent: _vm._s(status.ago) }
+              })
             ])
           ]),
           _vm._v(" "),

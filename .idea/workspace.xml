@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="50eaf724-73d5-482e-bda5-59428f7211c4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Status.php" afterPath="$PROJECT_DIR$/app/Models/Status.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/StatusesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/StatusesController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/js/components/StatusForm.vue" afterPath="$PROJECT_DIR$/resources/js/components/StatusForm.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/js/components/StatusesList.vue" afterPath="$PROJECT_DIR$/resources/js/components/StatusesList.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Browser/UsersCanCreateStatusesTest.php" afterPath="$PROJECT_DIR$/tests/Browser/UsersCanCreateStatusesTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Browser/UsersCanSeeAllStatusesTest.php" afterPath="$PROJECT_DIR$/tests/Browser/UsersCanSeeAllStatusesTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Feature/CreateStatusTest.php" afterPath="$PROJECT_DIR$/tests/Feature/CreateStatusTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Feature/ListStatusesTest.php" afterPath="$PROJECT_DIR$/tests/Feature/ListStatusesTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,48 +34,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StatusResourceTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Unit/Http/Resources/StatusResourceTest.php">
+      <file leaf-file-name="StatusesList.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/components/StatusesList.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="69" />
-              <folding>
-                <element signature="e#45#93#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StatusResource.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Resources/StatusResource.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatusTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Unit/Models/StatusTest.php">
+      <file leaf-file-name="UsersCanCreateStatusesTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Browser/UsersCanCreateStatusesTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="46" />
+            <state relative-caret-position="468">
+              <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateStatusTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/CreateStatusTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatusForm.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/components/StatusForm.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsersCanSeeAllStatusesTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Browser/UsersCanSeeAllStatusesTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="539">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding>
-                <element signature="e#37#69#0#PHP" expanded="true" />
+                <element signature="e#33#65#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Status.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Models/Status.php">
+      <file leaf-file-name="ListStatusesTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/ListStatusesTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="e#40#79#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="428">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,10 +115,8 @@
         <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/database/migrations/2019_08_29_205854_create_statuses_table.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/CreateStatusTest.php" />
         <option value="$PROJECT_DIR$/tests/DuskTestCase.php" />
         <option value="$PROJECT_DIR$/.env.dusk.local" />
-        <option value="$PROJECT_DIR$/tests/Browser/UsersCanCreateStatusesTest.php" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/resources/sass/app.scss" />
         <option value="$PROJECT_DIR$/resources/sass/_variables.scss" />
@@ -104,18 +125,20 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
         <option value="$PROJECT_DIR$/tests/Browser/LoginTest.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/StatusesController.php" />
         <option value="$PROJECT_DIR$/database/factories/StatusFactory.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/ListStatusesTest.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/resources/js/app.js" />
-        <option value="$PROJECT_DIR$/tests/Browser/UsersCanSeeAllStatusesTest.php" />
-        <option value="$PROJECT_DIR$/resources/js/components/StatusesList.vue" />
-        <option value="$PROJECT_DIR$/resources/js/components/StatusForm.vue" />
         <option value="$PROJECT_DIR$/tests/Unit/Http/Resources/StatusResourceTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/StatusResource.php" />
         <option value="$PROJECT_DIR$/tests/Unit/Models/StatusTest.php" />
         <option value="$PROJECT_DIR$/app/Models/Status.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/ListStatusesTest.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/StatusesList.vue" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/StatusesController.php" />
+        <option value="$PROJECT_DIR$/tests/Browser/UsersCanCreateStatusesTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/CreateStatusTest.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/StatusForm.vue" />
+        <option value="$PROJECT_DIR$/tests/Browser/UsersCanSeeAllStatusesTest.php" />
       </list>
     </option>
   </component>
@@ -236,6 +259,42 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Feature" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redsocialapre" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redsocialapre" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Browser" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redsocialapre" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redsocialapre" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -330,6 +389,46 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redsocialapre" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redsocialapre" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redsocialapre" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redsocialapre" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -355,15 +454,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.StatusTest.a_status_belongs_to_a_user">
-    <configuration default="false" name="StatusResourceTest.a_status_resources_must_have_the_necessary_fields" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\Http\Resources\StatusResourceTest" file="$PROJECT_DIR$/tests/Unit/Http/Resources/StatusResourceTest.php" method="a_status_resources_must_have_the_necessary_fields" />
-      <method />
-    </configuration>
-    <configuration default="false" name="StatusResourceTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\Http\Resources\StatusResourceTest" file="$PROJECT_DIR$/tests/Unit/Http/Resources/StatusResourceTest.php" scope="Class" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="PHPUnit.CreateStatusTest.guests_users_can_not_create_statuses">
     <configuration default="false" name="UsersCanCreateStatusesTest.users_can_create_statuses" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Browser\UsersCanCreateStatusesTest" file="$PROJECT_DIR$/tests/Browser/UsersCanCreateStatusesTest.php" method="users_can_create_statuses" scope="Method" />
       <method />
@@ -374,6 +465,14 @@
     </configuration>
     <configuration default="false" name="StatusTest.a_status_belongs_to_a_user" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Unit\Models\StatusTest" file="$PROJECT_DIR$/tests/Unit/Models/StatusTest.php" method="a_status_belongs_to_a_user" scope="Method" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ListStatusesTest.can_get_all_statuses" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ListStatusesTest" file="$PROJECT_DIR$/tests/Feature/ListStatusesTest.php" method="can_get_all_statuses" scope="Method" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CreateStatusTest.guests_users_can_not_create_statuses" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\CreateStatusTest" file="$PROJECT_DIR$/tests/Feature/CreateStatusTest.php" method="guests_users_can_not_create_statuses" scope="Method" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
@@ -448,19 +547,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="PHPUnit.redsocialapre" />
       <item index="1" class="java.lang.String" itemvalue="PHPUnit.CreateStatusTest" />
-      <item index="2" class="java.lang.String" itemvalue="PHPUnit.StatusResourceTest.a_status_resources_must_have_the_necessary_fields" />
-      <item index="3" class="java.lang.String" itemvalue="PHPUnit.StatusResourceTest" />
-      <item index="4" class="java.lang.String" itemvalue="PHPUnit.UsersCanCreateStatusesTest.users_can_create_statuses" />
-      <item index="5" class="java.lang.String" itemvalue="PHPUnit.StatusResourceTest.a_status_resources_must_have_the_necessary_fields (1)" />
-      <item index="6" class="java.lang.String" itemvalue="PHPUnit.StatusTest.a_status_belongs_to_a_user" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.UsersCanCreateStatusesTest.users_can_create_statuses" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.StatusResourceTest.a_status_resources_must_have_the_necessary_fields (1)" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.StatusTest.a_status_belongs_to_a_user" />
+      <item index="5" class="java.lang.String" itemvalue="PHPUnit.ListStatusesTest.can_get_all_statuses" />
+      <item index="6" class="java.lang.String" itemvalue="PHPUnit.CreateStatusTest.guests_users_can_not_create_statuses" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.StatusTest.a_status_belongs_to_a_user" />
-        <item index="1" class="java.lang.String" itemvalue="PHPUnit.StatusResourceTest.a_status_resources_must_have_the_necessary_fields (1)" />
-        <item index="2" class="java.lang.String" itemvalue="PHPUnit.UsersCanCreateStatusesTest.users_can_create_statuses" />
-        <item index="3" class="java.lang.String" itemvalue="PHPUnit.StatusResourceTest" />
-        <item index="4" class="java.lang.String" itemvalue="PHPUnit.StatusResourceTest.a_status_resources_must_have_the_necessary_fields" />
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.CreateStatusTest.guests_users_can_not_create_statuses" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.ListStatusesTest.can_get_all_statuses" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.StatusTest.a_status_belongs_to_a_user" />
+        <item index="3" class="java.lang.String" itemvalue="PHPUnit.StatusResourceTest.a_status_resources_must_have_the_necessary_fields (1)" />
+        <item index="4" class="java.lang.String" itemvalue="PHPUnit.UsersCanCreateStatusesTest.users_can_create_statuses" />
       </list>
     </recent_temporary>
   </component>
@@ -484,19 +583,19 @@
       <workItem from="1567546916556" duration="553000" />
       <workItem from="1567547482761" duration="2138000" />
       <workItem from="1567549655304" duration="431000" />
-      <workItem from="1567627582408" duration="7162000" />
+      <workItem from="1567627582408" duration="9725000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StatusResourceTest_a_status_resources_must_have_the_necessary_fields_(1) - 2019.09.04 at 17h 52m 55s.xml">
-      <configuration name="StatusResourceTest.a_status_resources_must_have_the_necessary_fields (1)" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="CreateStatusTest_guests_users_can_not_create_statuses - 2019.09.04 at 18h 53m 38s.xml">
+      <configuration name="CreateStatusTest.guests_users_can_not_create_statuses" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="StatusResourceTest_a_status_resources_must_have_the_necessary_fields_(1) - 2019.09.04 at 17h 53m 28s.xml">
-      <configuration name="StatusResourceTest.a_status_resources_must_have_the_necessary_fields (1)" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="CreateStatusTest_guests_users_can_not_create_statuses - 2019.09.04 at 18h 53m 43s.xml">
+      <configuration name="CreateStatusTest.guests_users_can_not_create_statuses" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="StatusResourceTest_a_status_resources_must_have_the_necessary_fields_(1) - 2019.09.04 at 17h 55m 29s.xml">
-      <configuration name="StatusResourceTest.a_status_resources_must_have_the_necessary_fields (1)" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ListStatusesTest_can_get_all_statuses - 2019.09.04 at 18h 34m 14s.xml">
+      <configuration name="ListStatusesTest.can_get_all_statuses" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
     <history-entry file="StatusResourceTest_a_status_resources_must_have_the_necessary_fields_(1) - 2019.09.04 at 18h 07m 48s.xml">
       <configuration name="StatusResourceTest.a_status_resources_must_have_the_necessary_fields (1)" configurationId="PHPUnitRunConfigurationType" />
@@ -521,7 +620,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25436000" />
+    <option name="totallyTimeSpent" value="27999000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -538,12 +637,12 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="reVu" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32681867" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22149837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15840621" sideWeight="0.5044543" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20988806" sideWeight="0.49554566" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20988806" sideWeight="0.49554566" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -556,6 +655,27 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="reVu" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22149837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15840621" sideWeight="0.5044543" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20988806" sideWeight="0.49554566" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991323" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -792,28 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ListStatusesTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StatusesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/CreateStatusTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Browser/LoginTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -854,46 +952,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Browser/UsersCanSeeAllStatusesTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <element signature="e#33#65#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/StatusesList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/StatusForm.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Browser/UsersCanCreateStatusesTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/Http/Resources/StatusResourceTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="69" />
           <folding>
-            <element signature="e#45#93#0#PHP" expanded="true" />
+            <element signature="e#45#93#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -911,7 +975,7 @@
         <state relative-caret-position="252">
           <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="46" />
           <folding>
-            <element signature="e#37#69#0#PHP" expanded="true" />
+            <element signature="e#37#69#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -921,7 +985,67 @@
         <state relative-caret-position="270">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#40#79#0#PHP" expanded="true" />
+            <element signature="e#40#79#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ListStatusesTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/StatusForm.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StatusesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="e#50#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/StatusesList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/CreateStatusTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Browser/UsersCanCreateStatusesTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Browser/UsersCanSeeAllStatusesTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="e#33#65#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -27,8 +27,8 @@ class UsersCanCreateStatusesTest extends DuskTestCase
                 ->press('#create-status')
                 ->waitForText('Mi primer status')
                 //->screenshot('create-status')
-                ->assertSee('Mi primer status');
-               // ->assertSee($user->name);
+                ->assertSee('Mi primer status')
+                ->assertSee($user->name);
         });
     }
 }
