@@ -5,7 +5,7 @@
             <div class="card-body">
                    <textarea
                       v-model="body"
-                      class="form-control border-0 bg-light"
+                      class="form-control border-0 bg-light mb-3 shadow-sm"
                       name="body"
                       placeholder="¿Qué estás pensando Jorge peralta?"></textarea>
             </div>
@@ -13,9 +13,7 @@
                 <button class="btn btn-primary" id="create-status">Publicar</button>
             </div>
         </form>
-        <div v-for="status in statuses" v-text="status.body">
-        	
-        </div>
+
 	</div>
 </template>
 
@@ -25,8 +23,7 @@
 
 		data(){
 			return {
-				body: '',
-				statuses: []
+				body: ''
 			}
 		},
 		methods: {
@@ -35,7 +32,8 @@
 				axios.post('/statuses',{body:this.body})
 					.then( res => {
 						//console.log(res.data)
-						this.statuses.push(res.data);
+                        EventBus.$emit('status-created', res.data.data);
+                        //this.statuses.push(res.data);
 						this.body=''
 					})
 					.catch( error => {

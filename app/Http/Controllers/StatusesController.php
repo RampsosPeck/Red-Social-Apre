@@ -3,16 +3,18 @@
 namespace Redsocialapre\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Redsocialapre\Http\Resources\StatusResource;
 use Redsocialapre\Models\Status;
 
 class StatusesController extends Controller
 {
 	public function index()
     {
-        /*return  StatusResource::collection(
+        // return  Status::paginate();
+
+        return StatusResource::collection(
             Status::latest()->paginate()
-        );*/
-        return  Status::paginate();
+        );
     }
     
     public function store(){
@@ -26,7 +28,9 @@ class StatusesController extends Controller
 
         //return redirect('/');
 
-        return response()->json(['body'=>$status->body]);
+       // return response()->json(['body'=>$status->body]);
+
+        return StatusResource::make($status);
 
     }
 }
