@@ -5,7 +5,7 @@
             <div class="card-body">
                    <textarea
                       v-model="body"
-                      class="form-control border-0 bg-light"
+                      class="form-control border-0 bg-light mb-3 shadow-sm"
                       name="body"
                       placeholder="¿Qué estás pensando Jorge peralta?"></textarea>
             </div>
