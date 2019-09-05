@@ -32,6 +32,10 @@ Vue.component('statuses-list', require('./components/StatusesList.vue').default)
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+import auth from './mixins/auth';
+Vue.mixin(auth);
+
+
 const app = new Vue({
     el: '#app',
 });
